@@ -1,0 +1,10 @@
+<app>
+  <practice each={people} firstname={fname} lastname={lname}></practice>
+  <script>
+    this.people = [
+      { fname: "絢三", lname: "松野尾" },
+      { fname: "太郎", lname: "山田" },
+      { fname: "しんのすけ", lname: "岡本" },
+    ];
+  </script>
+</app>
